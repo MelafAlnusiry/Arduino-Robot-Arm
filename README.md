@@ -1,10 +1,21 @@
 # Installing-Arduino-Robot-Arm
 
-## Artificial intelligence task 🦾:<br />
-**Installing the package arduino-robot-arm on ROS** <br />
+## About This Project <br />
+The robot arm has 5 joints only 4 joints can be fully controlled via ROS and Rviz, the last joint **gripper** has a default motion executed from the Arduino code directly.<br />
+<br />
 
-### First thing we login to Ubuntu then open terminal and write those commands : <br />
+## Breadboard View <br />
+<img src="images/circuit.jpeg." width="500">
+<br />
 
+## Robot initial positions <br />
+<img src="images/positions.jpeg." width="500">
+
+## SetUp Arduino Robot Arm🦾:
+
+**○ First thing we login to Ubuntu then open terminal and write those commands :**<br />
+
+**○ Check the dependencies:**<br />
 `cd ~/catkin_ws/` <br />
 
 `catkin_make` <br />
@@ -25,18 +36,20 @@
 
 `sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control` <br />
 
+**○ Now update your `bashrc` script with the information about the new workspace:**<br />
+
 `sudo nano ~/.bashrc` <br />
 
-at the end of the (bashrc) file add the follwing line <br />
+**○ at the end of the `bashrc` file add the follwing line** <br />
 `source /home/wesam/catkin_ws/devel/setup.bash` <br />
-then ctrl + o <br />
+**○ then ctrl + o**<br />
 
 `source ~/.bashrc`<br />
-
-`roslaunch robot_arm_pkg check_motors.launch`
+**○ The final command to finally launch the Arm**<br />
+`roslaunch robot_arm_pkg check_motors.launch` <br />
 
 <br />
 
-## Robot Arm View: 
+## ○ Robot Arm View🔎: 
 <img src="images/RobotArm.png" width="500">
 

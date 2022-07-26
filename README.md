@@ -1,15 +1,16 @@
 # Installing-Arduino-Robot-Arm
 
-## About This Project <br />
-The robot arm has 5 joints only 4 joints can be fully controlled via ROS and Rviz, the last joint **gripper** has a default motion executed from the Arduino code directly.<br />
+## About This Project❓ <br />
+**The robot arm has 5 joints only 4 joints can be fully controlled via ROS and Rviz, the last joint **gripper** has a default motion executed from the Arduino code directly**<br />
 <br />
 
-## Breadboard View <br />
-<img src="images/circuit.jpeg." width="500">
+## Breadboard View ⬇️<br />
+<img src="images/circuit.jpeg" width="500">
 <br />
 
-## Robot initial positions <br />
-<img src="images/positions.jpeg." width="500">
+## Robot initial positions ⬇️ <br />
+
+<img src="images/positions.jpeg" width="500">
 
 ## SetUp Arduino Robot Arm🦾:
 
